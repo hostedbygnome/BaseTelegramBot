@@ -10,7 +10,7 @@ admins = []
 
 ip = os.getenv('IP')
 
-aiogramRedis = {
+aiogram_redis = {
     'host': ip
 }
 
