@@ -2,11 +2,14 @@ import os
 
 # without docker
 from dotenv import load_dotenv
+
 # without docker
 load_dotenv()
 
 BOT_TOKEN = str(os.getenv('BOT_TOKEN'))
-admins = []
+admins = [
+    941953049
+]
 
 ip = os.getenv('IP')
 
