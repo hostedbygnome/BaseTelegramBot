@@ -35,4 +35,5 @@ async def bot_start(message: types.Message):
     await message.answer(f'Hello, {message.from_user.full_name}!\n'
                          f'You are in private correspondence.\n'
                          f'There isn not a deep link in your request\n'
-                         f'your deeplink link - {deep_link}')
+                         f'your deeplink link - {deep_link}\n'
+                         f'Your telegram id - {message.from_user.id}')
