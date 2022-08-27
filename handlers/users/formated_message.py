@@ -9,8 +9,9 @@ html_text = '\n'.join(
         'Hello, ' + hbold('user'),
         hitalic('You need to be afraid not of death, but of an empty life'),
         hstrikethrough('You need to be careful'),
-        'This text is html formatted'
-        'You can read about it ' + hlink('here', 'https://core.telegram.org/bots/api#formatting-options')
+        'This text is html formatted',
+        'You can read about it ' + hlink('here\n', 'https://core.telegram.org/bots/api#formatting-options'),
+        hbold('Example:\n')
     ]
 )
 
