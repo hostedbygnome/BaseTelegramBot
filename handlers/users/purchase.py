@@ -28,7 +28,7 @@ async def buying_pear(call: CallbackQuery, callback_data: dict):
                               reply_markup=pear_keyboard)
 
 
-@dp.callback_query_handler(text_contains='pear')
+@dp.callback_query_handler(buy_callback.filter(item_name='apple'))
 async def buying_apple(call: CallbackQuery, callback_data: dict):
     # With callback query id
     # await bot.answer_callback_query(callback_query_id=call.id)
